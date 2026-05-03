@@ -7,8 +7,4 @@ let numero = parseInt(prompt("Digite um número:"));
 
 // Escreva seu código aqui:
 
-if (isNaN(numero % 2 === 0)) {
-    alert("Número é par")
-} else {
-    alert("Número é impar")
-}
+

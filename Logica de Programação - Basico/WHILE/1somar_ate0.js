@@ -9,9 +9,5 @@ let numero = parseFloat(prompt("Digite um número (0 para parar):"));
 
 // Escreva seu código aqui:
 
-while (numero !== 0) {
-    soma += numero;
-    numero = parseFloat(prompt("Digite um novo número (0 para parar):"));
-}
-alert("Soma total: " + soma);
+
 

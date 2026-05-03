@@ -9,7 +9,4 @@ let contador = 1;
 
 // Escreva seu código aqui:
 
-while (contador <= 10) {
-     alert(numero + "x" + contador + "=" + (numero * contador));
-    contador++;
-}
+

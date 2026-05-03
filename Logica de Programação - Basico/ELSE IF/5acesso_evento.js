@@ -8,8 +8,4 @@ let temConvite = prompt("Tem convite? (sim/não)");
 
 // Escreva seu código aqui:
 
-if (idade >= 18 || temConvite === "sim") {
-    alert("Permitido")
-} else {
-    alert("Não Permitido")
-}
+

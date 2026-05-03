@@ -8,7 +8,4 @@ let numero = parseInt(prompt("Digite um número para contagem regressiva:"));
 
 // Escreva seu código aqui:
 
-while (numero >= 0) {
-    alert(numero);
-    numero--;
-}
+

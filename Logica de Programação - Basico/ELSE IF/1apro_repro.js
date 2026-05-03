@@ -1,13 +1,9 @@
 // DESAFIO 1 - Aprovado ou Reprovado
-// Peça a nota do aluno (0 a 10). Se for >= 6, mostre "Aprovado!". Senão, mostre "Reprovado!".
-// DICA: use if/else
-
-let nota = parseFloat(prompt("Digite a nota do aluno:"));
+// Peça o peso (kg) e altura (m). Calcule IMC = peso / (altura * altura)
+// IMC < 18.5: "Magreza" | 18.5-24.9: "Normal" | 25-29.9: "Sobrepeso" | >=30: "Obesidade"\
+// DICA: use if, else if, else
+    
+let peso = parseFloat(prompt("Digite seu peso (kg):"));
+let altura = parseFloat(prompt("Digite sua altura (m):"));
 
 // Escreva seu código aqui:
-
-if (nota >=6) {
- alert("Aprovado!");
-} else {
-    alert("Reprovado!")
-}

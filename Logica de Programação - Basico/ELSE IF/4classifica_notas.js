@@ -1,21 +1,13 @@
 // DESAFIO 4 - Classificação de Notas
-// Peça a nota do aluno (0 a 10).
-// Nota >= 9 → "Excelente"
-// Nota >= 7 → "Bom"
-// Nota >= 5 → "Regular"
-// Nota < 5 → "Insuficiente"
+// Peça idade e gênero do filme (Ação ou Terror).
+// Permitir Terror só se idade >=18.
+// Permitir Ação se idade >=12.
+// Senão não permite.
 // DICA: use if / else if / else
 
-let nota = parseFloat(prompt("Digite a nota (0 a 10):"));
+let idade = parseInt(prompt("Digite a idade:"));
+let genero = prompt("Gênero (Ação/Terror):");
 
 // Escreva seu código aqui:
 
-if (nota >= 9) {
-    alert("Excelente")
-} else if (nota >= 7) {
-    alert("Bom")
-} else if (nota >= 5) {
-        alert("Regular")
-} else {
-    alert("Insuficiente")
-}
+

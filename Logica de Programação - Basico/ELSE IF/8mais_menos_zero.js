@@ -7,12 +7,4 @@ let numero = parseFloat(prompt("Digite um número:"));
 
 // Escreva seu código aqui:
 
-if (isNaN(numero)) {
-    alert("Valor inválido");
-} else if (numero > 0) {
-    alert("Número positivo");
-} else if (numero < 0) {
-    alert("Número negativo");
-} else {
-    alert("Número é zero");
-}
+

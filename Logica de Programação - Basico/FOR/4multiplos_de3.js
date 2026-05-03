@@ -8,8 +8,4 @@ let contagem = 0;
 
 // Seu código:
 
-for (let i = 1; i < n; i++) {
-    if (i % 3 === 0)
-    contagem++;
-}
-alert ("N=" + n + "-" + i + "=" + contagem + "múltiplos")
+

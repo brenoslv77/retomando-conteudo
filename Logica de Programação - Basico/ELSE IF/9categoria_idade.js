@@ -10,14 +10,4 @@ let idade = parseInt(prompt("Digite sua idade:"));
 
 // Escreva seu código aqui:
 
-if (isNaN(idade) || idade < 0) { 
-    alert("Número invalido")
-} else if (idade <= 12) {
-    alert("Criança")
-} else if (idade <= 17) {
-    alert("Adolescente")
-} else if (idade <= 59) {
-    alert("Adulto")
-} else {
-    alert("Idoso")
-}
+

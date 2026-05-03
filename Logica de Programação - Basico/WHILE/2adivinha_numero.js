@@ -10,15 +10,4 @@ let chute = parseInt(prompt("Adivinhe o número (1 a 10):"));
 
 // Escreva seu código aqui:
 
-while (chute !== secreto) {
-    tentativas++
-    if (chute < secreto) {
-        alert("Maior")
-    } else {
-        alert("Menor")
-    }
-    chute = parseInt(prompt("Tente novamente"));
-}
 
-tentativas++;
-alert("Acertou em " + tentativas + " tentativas!");

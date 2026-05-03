@@ -9,20 +9,5 @@
 
 let nota = parseFloat(prompt("Digite a nota (0 a 10):"));
 
-switch (true) {
-    case (nota >= 9):
-        alert("Conceito: A");
-        break;
-    case (nota >= 7):
-        alert("Conceito: B");
-        break;
-    case (nota >= 5):
-        alert("Conceito: C");
-        break;
-    case (nota >= 3):
-        alert("Conceito: D");
-        break;
-    default:
-        alert("Conceito: E");
-}
+// Escreva seu switch aqui:
 

@@ -3,10 +3,7 @@
 // (soma 3 a cada termo)
 
 let n = parseInt(prompt("Digite N para ver a série até N:"));
+
 // Exemplo N=10 → 2, 5, 8
 
-for (let i = 3; i < n; i++) {
-    if (i * 3 === n);
-}
 
-alert(i)

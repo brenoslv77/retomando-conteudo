@@ -8,8 +8,4 @@ let fatorial = 1;
 
 // Escreva seu código aqui:
 
-for (let i = 1; i <= n; i++) {
-    fatorial *= i;
-}
 
-alert(fatorial);

@@ -9,11 +9,3 @@ let somaPares = 0;
 
 // Escreva seu código aqui:
 
-while (numero != 0) {
-    if (numero % 2 === 0) {
-   somaPares += numero;
-    }
-    numero = parseInt(prompt("Digite outro número (0 para parar):"));
-    }
-    
-alert("Soma dos pares: " + somaPares);

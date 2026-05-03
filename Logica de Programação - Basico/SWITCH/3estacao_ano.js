@@ -10,23 +10,4 @@ let estacao = parseInt(prompt("Digite um número de 1 a 4:"));
 // Escreva seu código aqui:
 
 
-switch (estacao) {
-    case 1:
-        alert("Verão");
-        break;
-
-    case 2:
-        alert("Outono");
-        break;
-
-    case 3:
-        alert("Inverno");
-        break;
-
-    case 4:
-        alert("Primavera");
-        break;
-
-    default:
-        alert("Estação inválida");
-}
+// Escreva seu switch aqui:
