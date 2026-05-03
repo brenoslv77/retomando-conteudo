@@ -1,0 +1,15 @@
+// DESAFIO 4 FOR - Quantos múltiplos de 3
+// Peça N ao usuário.
+// Conte quantos números de 1 até N são múltiplos de 3.
+// Exemplo: N=10 → 3,6,9 = 3 múltiplos
+
+let n = parseInt(prompt("Digite N:"));
+let contagem = 0;
+
+// Seu código:
+
+for (let i = 1; i < n; i++) {
+    if (i % 3 === 0)
+    contagem++;
+}
+alert ("N=" + n + "-" + i + "=" + contagem + "múltiplos")
